@@ -19,9 +19,13 @@
     }
   ],
   "keywords": [
-    "jst", "template", "precompile", "compile", "mustache"
+    "jst",
+    "template",
+    "precompile",
+    "compile",
+    "mustache"
   ],
-  "repository" : {
+  "repository": {
     "type": "git",
     "url": "https://github.com/kupriyanenko/jsttojs.git"
   },

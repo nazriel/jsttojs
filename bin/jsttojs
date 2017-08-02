@@ -12,7 +12,7 @@ options
   .option('-n, --name <n>', 'name variable stores temapltes, default "JSTmpl"', 'JSTmpl')
   .option('-w, --watch', 'watch files and automatic compile output file')
   .option('-r, --removebreak', 'remove line breaks')
-  .option('-a, --amd', 'wrap templates in AMD module')
+  .option('-t, --type <n>', 'Type of module loading: globa, require, amd; default: require', 'require')
   .option('-o, --onlyname', 'use as a key only file name, without directory')
   .parse(process.argv);
 
